@@ -1,10 +1,13 @@
-import {Greeting} from '../domain/Greeting';
+import {GREETING_INITIAL_STATE, GreetingState} from "./greeting-state";
 
 export interface HomeState {
-    greeting: Greeting;
+
+  greeting: GreetingState;
+
+
 }
 
 export const HOME_INITIAL_STATE: HomeState = {
 
-    greeting: {message: 'Welcome'}
+  greeting: GREETING_INITIAL_STATE
 };

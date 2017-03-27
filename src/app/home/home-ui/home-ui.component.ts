@@ -1,5 +1,5 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { GreetingModel } from '../model/GreetingModel';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {GreetingModel} from '../model/GreetingModel';
 
 @Component({
   selector: 'app-home-ui',
